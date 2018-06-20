@@ -8,8 +8,7 @@ import {b} from '@angular/core/src/render3';
 @Component({
   selector: 'app-weather',
   templateUrl: './weather.component.html',
-  styleUrls: ['./weather.component.css'],
-  encapsulation: ViewEncapsulation.Native
+  styleUrls: ['./weather.component.css']
 })
 export class WeatherComponent implements OnInit {
 
@@ -61,7 +60,7 @@ export class WeatherComponent implements OnInit {
   }
 
   public getBackgroundImage(weatherType: string): string {
-    let background = 'url(\'/etc/designs/ngx/assets/img/';
+    let background = 'url(\'/etc/designs/ngx-aem/assets/img/';
 
     switch (weatherType) {
       case 'clear':

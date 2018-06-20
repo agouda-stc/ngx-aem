@@ -18,7 +18,7 @@ const concat = require('concat');
 
   await fs.copyFile('./dist/front-end/styles.css', `${rootDir}/clientlib-site/css/ng-aem.css`);
 
-  await fs.copy('./dist/front-end/etc/designs/ngx/assets/', `${rootDir}/assets`);
+  await fs.copy('./dist/front-end/etc/designs/ngx-aem/assets/', `${rootDir}/assets`);
 
   await fs.copy('./dist/front-end/weathericons-regular-webfont.eot', `${rootDir}/clientlib-site/css/weathericons-regular-webfont.eot`);
   await fs.copy('./dist/front-end/weathericons-regular-webfont.svg', `${rootDir}/clientlib-site/css/weathericons-regular-webfont.svg`);

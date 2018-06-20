@@ -20,7 +20,7 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/etc/designs/ngx/assets"
+              "src/etc/designs/ngx-aem/assets"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
